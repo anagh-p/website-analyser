@@ -1,16 +1,19 @@
 :root {
-  --button-color1: #cc9a12;
-  --button-color2: #72ad5a;
-  --button-color3: #526e9c;
-  --button-color4: #914766;
+  --button-color1: #A3D6D4;
+  --button-color2: #F1E9CB;
+  --button-color3: #C2D5A7;
+  --button-color4: #B0ABCA;
+  --button-color5: #E2A9BE;
+  --button-color6: #E1C6AC;
 }
 
 .buttons{
-  margin-bottom: 2px;
-  color: #ffffff;
+  color: rgba(0,0,0,.5);
+  text-shadow: 3px 2px 3px rgba(255,255,255,.2);
   border: none;
   border-radius: 3px;
   padding: 5px;
+  margin-bottom: 2px;
   cursor: pointer;
 }
 .buttons:hover{
