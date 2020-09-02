@@ -1,0 +1,31 @@
+:root {
+  --button-color1: #cc9a12;
+  --button-color2: #72ad5a;
+  --button-color3: #526e9c;
+  --button-color4: #914766;
+}
+
+.buttons{
+  margin-bottom: 2px;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
+  cursor: pointer;
+}
+.buttons:hover{
+  opacity: 0.8;
+}
+
+.button-pagespeed{
+  background-color: var(--button-color1);
+}
+.button-dfp{
+  background-color: var(--button-color2);
+}
+.button-structured-data{
+  background-color: var(--button-color3);
+}
+.button-amp{
+  background-color: var(--button-color4);
+}
