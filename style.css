@@ -1,10 +1,10 @@
 :root {
-  --button-color1: #A3D6D4;
-  --button-color2: #F1E9CB;
-  --button-color3: #C2D5A7;
-  --button-color4: #B0ABCA;
-  --button-color5: #E2A9BE;
-  --button-color6: #E1C6AC;
+  --button-color1: rgba(163, 214, 212);
+  --button-color2: rgba(241, 233, 203);
+  --button-color3: rgba(194, 213, 167);
+  --button-color4: rgba(176, 171, 202);
+  --button-color5: rgba(226, 169, 190);
+  --button-color6: rgba(225, 198, 172);
 }
 
 .buttons{
@@ -18,6 +18,7 @@
 }
 .buttons:hover{
   opacity: 0.8;
+  color: rgba(0,0,0,.8);
 }
 
 .button-pagespeed{
